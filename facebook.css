@@ -1,0 +1,73 @@
+@font-face {
+    font-family: "inter";
+    src: url("Inter-Regular.ttf");
+}
+
+* {
+    box-sizing: border-box;
+    font-family: "inter";
+}
+
+form {
+    width: 396px;
+    height: 423px;
+    margin-top: 216px;
+}
+
+body {
+    background-color: #F0F2F5 !important ;
+}
+
+input {
+    outline: none;
+    border: 1px solid #BDB5B5 !important;
+    font-size: 16px !important;
+    height: 70px !important;
+}
+
+button {
+    height: 70px !important;
+}
+
+.green {
+    width: 204px;
+    height: 51px !important ;
+    background-color: #42B72A;
+    border-radius: 8px;
+    border: none;
+}
+
+.book {
+    width: 466px;
+    margin-top: 256px;
+    margin-inline-end: 93px;
+}
+
+.book p {
+    font-size: 28px;
+    font-weight: 400;
+    color: #000;
+}
+
+.divider {
+    width: 100%;
+    padding-left: 36.12px;
+}
+
+@media screen and (max-width:768px) {
+    .repozitor {
+        flex-direction: column;
+    }
+
+    .book {
+       width: 100%;
+        margin-top: 50px;
+    }
+
+    form {
+        display: block;
+        margin-top: 100px;
+        width: 100% !important;
+    }
+
+}
